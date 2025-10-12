@@ -43,7 +43,8 @@ int main(int argc, char** argv){
     
 
 	}
-	
+	close(fd);
+	close(fd2);	
 	return 0;
 }
 
